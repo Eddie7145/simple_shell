@@ -197,7 +197,6 @@ char *_getenv(info_t *, const char *);
 int _myenv(info_t *);
 int _mysetenv(info_t *);
 int _myunsetenv(info_t *);
-OA
 int populate_env_list(info_t *);
 
 /* toem_getenv.c */
@@ -234,3 +233,4 @@ int replace_vars(info_t *);
 int replace_string(char **, char *);
 
 #endif
+
